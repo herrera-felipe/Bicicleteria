@@ -17,12 +17,12 @@ public class Bicicleta {
         this.precio = precio;
     }
 
-    // Metodos
+    
     public String getNroSerie() {
         return nroSerie;
     }
     
-    // EJERCICIO 1: implementar metodos getPrecio y setPrecio
+   
     public float getPrecio() {
         return precio;
     }

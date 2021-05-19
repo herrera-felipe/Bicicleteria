@@ -9,12 +9,11 @@ import java.util.List;
  */
 public class Bicicleteria {
     
-    // EJERCICIO 1: Atributos
     private List<Bicicleta> bicicletas;
     private float ganancias;
     private Integer cantidadVentas;
     
-    // Constructor
+    
     public Bicicleteria() {
         this.bicicletas = new ArrayList<Bicicleta>();
         this.cantidadVentas = 0;
@@ -27,12 +26,12 @@ public class Bicicleteria {
         this.ganancias += bicicleta.getPrecio(); // Suma las ganancias actuales con el precio, y asigna el nuevo valor.
     }
     
-    // EJERCICIO 1: Implementar metodo addBicicleta
+    
     public void addBicicleta (Bicicleta nuevaBici) {
         this.bicicletas.add(nuevaBici); // Agrega la nuevaBici a la Lista.
     } 
     
-    // EJERCICIO 2: implementar metodo buscarBici a partir del enunciado.
+    
     public Integer buscarBicicleta(String nroDeSerie) {
         Integer bicicletaEncontrada = null;// En caso de no encontrar una bici, retorna null.
         
@@ -48,10 +47,7 @@ public class Bicicleteria {
         return bicicletaEncontrada;
     }
     
-    // EJERCICIO 3: Interpretacionde Codigo.
-    /* De acuerdo al método planteado en el ejercicio #3. 
-    ** se interpreta que el metodo: b) Calcula el precio total de las bicicletas de la bicicletería..
-    */
+    
     public float precioTotalBicicletas() {
         float precioTotal = 0;
         
