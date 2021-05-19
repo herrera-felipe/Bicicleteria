@@ -1,4 +1,4 @@
-package proyectoBicicleteria;
+package bicicleteria;
 
 /**
  *

@@ -1,5 +1,5 @@
 
-package proyectoBicicleteria;
+package bicicleteria;
 
 /**
  *

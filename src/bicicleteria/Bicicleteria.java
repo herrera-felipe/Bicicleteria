@@ -1,4 +1,4 @@
-package proyectoBicicleteria;
+package bicicleteria;
 
 import java.util.ArrayList;
 import java.util.List;
